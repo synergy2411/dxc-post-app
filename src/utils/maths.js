@@ -1,4 +1,5 @@
 const add = (n1, n2) => n1 + n2;
+const mul = (n1, n2) => n1 * n2;
 
 // const isAuthenticated = (username, password) => {
 //     axios.get("URL" + username + password).
@@ -6,4 +7,4 @@ const add = (n1, n2) => n1 + n2;
 //         return response;
 //     })
 // }
-module.exports = { add };
+module.exports = { add , mul};
